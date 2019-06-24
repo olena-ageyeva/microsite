@@ -5,38 +5,21 @@ import { Image,Nav, NavDropdown,Navbar, NavItem, FormGroup, FormControl, Button,
 //import Routes from './components/routes/Routes';
 import { connect } from 'react-redux';
 import logo from './images/Commonwealth_Logo.svg'
+import NavbarPage from './components/NavbarPage';
+import NavbarSimple from './components/NavbarSimple';
+import Pills from './components/Pills';
 
-
-function App() {
-  var icon = (
-    <span className="logo">
-      <a href="/">
-        <img src={logo} alt="logo" /></a>
-    </span>
-  );
+class App extends Component{
+  
+  render(){
   return (
-    <div className="container-fluid">      
-      <Navbar staticTop={true} fluid={true} brand={icon} toggleButton  collapseOnSelect expand="lg" bg="white" variant="primary" toggleNavKey={1}>
-      <Navbar.Brand href="#home">{icon}</Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
-      <Nav className="mr-auto">      
-    </Nav>
-    <Nav>
-      <Nav.Link href="#speakers">Featured Speakers</Nav.Link>
-      <Nav.Link href="#agenda">Conference Sessions</Nav.Link>
-      <Nav.Link href="#highlights">Program Highlights</Nav.Link>
-      <Nav.Link href="#plan">Planning Your Trip</Nav.Link>
-      <Nav.Link href="#register">Register Now</Nav.Link>
-      <Nav.Link href="#faq">FAQs</Nav.Link>
-      <Nav.Link href="#contact" data-toggle="modal">Contact Us</Nav.Link>
-    </Nav>
-  </Navbar.Collapse>
-</Navbar>
-      </div>
+   
+   <NavbarSimple />
+   
+   
     );
   }
-
+}
 
   
 
