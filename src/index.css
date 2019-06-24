@@ -10,4 +10,44 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+   
+}
+
+.nav-link{
+    text-transform: uppercase;
+    padding-top: 40px !important;
+    padding-bottom: 7px !important;
+    line-height: 20px;
+    font-size: 1.15rem;
+    white-space: nowrap;
+    color: #2f75ba;
+} 
+
+.navbar-brand img {
+  padding: 40px 0 0 0;
+}
+
+[href|="#register"]::after {
+  content: '\25BC';
+  padding: 0px 0px 0 5px;
+}
+
+[href|="#register"]:hover {
+   text-decoration: underline;
+   color: white;
+}
+
+[href|="#register"] {
+  background-color: blue;
+  color: white;
+}
+a.nav-link:hover {
+  text-decoration: underline;
+}
+
+
+.navbar-brand img {
+  max-width: 100%;
+  width: 400px; 
+  /* background-color: white; */
 }
