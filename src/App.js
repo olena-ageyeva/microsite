@@ -7,6 +7,7 @@ import { connect } from 'react-redux';
 import logo from './images/Commonwealth_Logo.svg'
 import NavbarPage from './components/NavbarPage';
 import NavbarSimple from './components/NavbarSimple';
+import OTBootstrap from './components/BootstrapHTML/OTBootstrap';
 import Pills from './components/Pills';
 
 class App extends Component{
@@ -14,7 +15,7 @@ class App extends Component{
   render(){
   return (
    
-   <NavbarSimple />
+   <OTBootstrap />
    
    
     );
