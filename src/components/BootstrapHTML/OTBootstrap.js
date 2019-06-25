@@ -1,17 +1,16 @@
 
 import React, { Component } from 'react';
 import OTBootstrapNavbar  from './OTBootstrapNavbar';
+import logo from '../../images/Commonwealth_Logo.svg'
+import { NOTFOUND } from 'dns';
 
-
-class OTBootstrap extends Component{
-
-  render(){
+function OTBootstrap(){
+  
+  
   return (
-    
-        <OTBootstrapNavbar />    
-    
+    <OTBootstrapNavbar />    
     );
-}
+
   }
 
 

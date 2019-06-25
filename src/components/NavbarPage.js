@@ -26,14 +26,17 @@ render() {
   return (
     <BrowserRouter>
     <Switch>  
-    <MDBNavbar light expand="md">
+    <MDBNavbar light expand="md justify-content-end">
         <MDBNavbarBrand>
           {icon}
         </MDBNavbarBrand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav left>
-            <MDBNavItem active>
+            
+          </MDBNavbarNav>
+          <MDBNavbarNav right>
+          <MDBNavItem active>
               <MDBNavLink to="#!">Home</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
@@ -55,8 +58,6 @@ render() {
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavItem>
-          </MDBNavbarNav>
-          <MDBNavbarNav right>
             <MDBNavItem>
               <MDBFormInline waves>
                 <div className="md-form my-0">

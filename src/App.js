@@ -14,9 +14,14 @@ class App extends Component{
   
   render(){
   return (
-   
+   <div>
    <OTBootstrap />
-   
+   <br/><br/>   <br/><br/> <br/><br/> <br/><br/> 
+
+   <NavbarPage />
+   <br/><br/>   <br/><br/>
+   <NavbarSimple />
+   </div>
    
     );
   }
