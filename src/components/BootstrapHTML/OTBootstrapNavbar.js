@@ -25,7 +25,7 @@ class OTBootstrapNavbar extends Component {
   return (
     <div class="container">
 
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top d-print-none poaition-fixed bg-white" role="navigation">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top d-print-none position-fixed bg-white" role="navigation">
         <a class="navbar-brand mt-4" href="#top" mr-auto id="topLogo">{icon}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
