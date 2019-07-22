@@ -39,7 +39,7 @@ class OTTabs2 extends Component {
 
     </ul>
 
-    <div class="tab-content planning">
+    <div class="tab-content planning w-75 mx-auto mt-5">
 
         <div class="tab-pane show active" id="t3700" role="tabpanel">
 

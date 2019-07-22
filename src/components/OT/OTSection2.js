@@ -12,7 +12,7 @@ class OTSection2 extends Component {
 
     <div class="card-deck w-50 mx-auto">
         <div class="card text-center">
-            <img src="https://dev.commonwealth.com/conferences/national-conference-2019/images/Icon_Agenda.svg" class="card-img-top px-5" />
+            <img src="https://dev.commonwealth.com/conferences/national-conference-2019/images/Icon_Agenda.svg" class="card-img-top w-50 mx-auto px-3" />
             <div class="card-body">                       
                 <h4 class="card-title">Conference<br />Agenda</h4>
                 <p class="card-text">Learn about sessions, including an optional preconference workshop, to plan your experience.</p>
@@ -44,8 +44,8 @@ class OTSection2 extends Component {
 
                   
               
-        <div class="card px-5 text-center">
-            <img src="https://dev.commonwealth.com/conferences/national-conference-2019/images/Icon_Resources.svg" class="card-img-top px-5" />
+        <div class="card text-center">
+            <img src="https://dev.commonwealth.com/conferences/national-conference-2019/images/Icon_Resources.svg" class="card-img-top w-50 mx-auto px-3" />
                  <div class="card-body">
                                     <h4 class="card-title">Featured<br />Resources</h4>
                                     <p>Find out about our CyberCafé, Tech Desk, home office booths, social media, and mobile app.</p>
@@ -59,8 +59,8 @@ class OTSection2 extends Component {
 
               
                 
-       <div class="card px-5 text-center">
-           <img src="https://dev.commonwealth.com/conferences/national-conference-2019/images/Icon_Education.svg" class="card-img-top px-5" />
+       <div class="card text-center">
+           <img src="https://dev.commonwealth.com/conferences/national-conference-2019/images/Icon_Education.svg" class="card-img-top w-50 mx-auto px-3" />
                 <div class="card-body">
                     <h4 class="card-title">Continuing<br />Education</h4>
                     <p>Earn designation and Firm Element CE credits.</p>
