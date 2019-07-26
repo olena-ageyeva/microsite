@@ -15,16 +15,16 @@ function OTMicrosite(){
   
   
   return (
-      <div>
+      <div class="m-0 p-0">
         <OTNavbar />  
-        <OTCarousel />  
+        {/* <OTCarousel />  
         <OTSection />      
         <OTBanner />  
         <OTSection2 />
         <OTSection3 />
         <OTTabs />
         <OTTabs2 />
-        <OTFooter />
+        <OTFooter /> */}
         
       </div>
     );

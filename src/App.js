@@ -16,7 +16,7 @@ class App extends Component{
   
   render(){
   return (
-   <div>   
+   <div class="m-0 p-0">   
     
      <OTMicrosite />
     </div>

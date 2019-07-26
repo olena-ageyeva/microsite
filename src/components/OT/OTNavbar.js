@@ -22,7 +22,7 @@ class OTNavbar extends Component {
       );
     
   return (
-<nav class="navbar navbar-expand-lg navbar-light fixed-top d-print-none" role="navigation">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top d-print-none bg-white m-0 p-0" role="navigation">
     <a class="navbar-brand" href="#top" mr-auto id="topLogo">{icon}</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@ class OTNavbar extends Component {
        <ul class="navbar-nav ml-auto nav-jump-links ml-auto"> 
            
            <li class="nav-item ">
-                 <a class="nav-link" href="#speakers" data-track="topnav > Featured Speakers">Featured Speakers</a>
+                 <a class="nav-link" href="#speakers" data-track="topnav > Featured Speakers" onClick="handleChange">{this.getState("text")}</a>
            </li>
            <li class="nav-item ">
                 <a class="nav-link" href="#agenda" data-track="topnav > Conference Sessions">Conference Sessions</a>

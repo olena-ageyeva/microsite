@@ -31,3 +31,602 @@
     transform: rotate(360deg);
   }
 }
+
+@import url(https:/fast.fonts.net/t/1.css?apiType=css&projectid=69b1ad91-cea7-4319-8ee6-4541e4746133);
+
+/*!
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http:/webfonts.fonts.com
+*/
+/*
+@font-face{
+    font-family:"Gill Sans Book";
+    src:url("C:/Users/olenaageyeva/Desktop/conferences/fonts/c4be5717-c19c-43a5-9ad3-b548ddf070d4.eot?#iefix");
+    src:url("C:/Users/olenaageyeva/Desktop/conferences/fonts/c4be5717-c19c-43a5-9ad3-b548ddf070d4.eot?#iefix") format("eot"),url("C:/Users/olenaageyeva/Desktop/conferences/fonts/63aa9f40-04be-453a-a672-aa8f9919115d.woff") format("woff"),url("C:/Users/olenaageyeva/Desktop/conferences/fonts/a82a5fb6-ad03-4675-801e-d3182a58ff5f.ttf") format("truetype"), url("C:/Users/olenaageyeva/Desktop/conferences/fonts/beb2cee2-1a51-44ca-848f-4f795394ee5a.svg#beb2cee2-1a51-44ca-848f-4f795394ee5a") format("svg");
+}
+
+@font-face{
+    font-family:"Gill Sans Roman";
+    src:url("C:/Users/olenaageyeva/Desktop/conferences/fonts/c575cf0c-7e15-4f49-913a-af4676e20343.eot?#iefix");
+    src:url("C:/Users/olenaageyeva/Desktop/conferences/fonts/c575cf0c-7e15-4f49-913a-af4676e20343.eot?#iefix") format("eot"),url("C:/Users/olenaageyeva/Desktop/conferences/fonts/39ede25d-544d-4537-8668-3e9af68a26ec.woff") format("woff"),url("C:/Users/olenaageyeva/Desktop/conferences/fonts/fe7e264f-3a4a-40c8-85eb-f9e2cb4b6f21.ttf") format("truetype"), url("C:/Users/olenaageyeva/Desktop/conferences/fonts/f45aa0ef-7101-4ac6-84f9-fce14d01e189.svg#f45aa0ef-7101-4ac6-84f9-fce14d01e189") format("svg");
+}
+
+@font-face{
+    font-family:"Gill Sans Light";
+    src:url("C:/Users/olenaageyeva/Desktop/conferences/fonts/acd8a043-828c-4c2c-98cb-b5224f5d4cdb.eot?#iefix");
+    src:url("C:/Users/olenaageyeva/Desktop/conferences/fonts/acd8a043-828c-4c2c-98cb-b5224f5d4cdb.eot?#iefix") format("eot"),url("C:/Users/olenaageyeva/Desktop/conferences/fonts/c56da29d-9c5b-4d94-900f-770cde3dd317.woff") format("woff"),url("C:/Users/olenaageyeva/Desktop/conferences/fonts/378182d1-8021-4674-a814-cc8f01f9a937.ttf") format("truetype"), url("C:/Users/olenaageyeva/Desktop/conferences/fonts/d8851d95-478d-47a9-a0b0-a8d8e4ca127a.svg#d8851d95-478d-47a9-a0b0-a8d8e4ca127a") format("svg");
+}
+
+
+@font-face{
+        font-family:"Myriad Pro 1167301";
+        src:url("/conferences/fonts/76fda6fb-8617-4e88-b290-945c47127ceb.eot?#iefix");
+        src:url("/conferences/fonts/76fda6fb-8617-4e88-b290-945c47127ceb.eot?#iefix") format("eot"),url("/conferences/fonts/31f16622-b72f-4fa0-9e3b-cb48f7d62990.woff2") format("woff2"),url("/conferences/fonts/01932eb5-2a4e-4bd4-b8a8-8e04f69b2d66.woff") format("woff"),url("/conferences/fonts/b1811139-1d49-42a2-8353-e29ca087433c.ttf") format("truetype"),url("/conferences/fonts/77a8ed10-0737-4849-9972-26d6e7585df5.svg#77a8ed10-0737-4849-9972-26d6e7585df5") format("svg");
+    }
+    @font-face{
+        font-family:"Myriad Pro 1167293";
+        src:url("/conferences/fonts/a29d7bc9-2089-4ece-9af5-114234bcbe74.eot?#iefix");
+        src:url("/conferences/fonts/a29d7bc9-2089-4ece-9af5-114234bcbe74.eot?#iefix") format("eot"),url("/conferences/fonts/4178d359-8853-4a13-bb05-7f7a8245a88d.woff2") format("woff2"),url("/conferences/fonts/e24e937f-1ec2-41c0-99ac-ea86a1cfd177.woff") format("woff"),url("/conferences/fonts/9f03002d-4ad2-4c92-82c4-637ab2cefe28.ttf") format("truetype"),url("/conferences/fonts/b5bdbbde-98f3-4fb9-9b47-7da424822ad9.svg#b5bdbbde-98f3-4fb9-9b47-7da424822ad9") format("svg");
+    }
+    @font-face{
+        font-family:"Myriad W01 Regular";
+        src:url("/conferences/fonts/2bd106a4-3872-4193-8627-d7af96dd4f7e.eot?#iefix");
+        src:url("/conferences/fonts/2bd106a4-3872-4193-8627-d7af96dd4f7e.eot?#iefix") format("eot"),url("/conferences/fonts/3b0f1c67-c2e4-4df6-976f-49d52e45aba1.woff2") format("woff2"),url("/conferences/fonts/c5b1c170-d8f7-41f9-85c2-0ab670780c6b.woff") format("woff"),url("/conferences/fonts/ba1ff8f6-0c27-4e7b-8be5-818b6c3dd801.ttf") format("truetype"),url("/conferences/fonts/a379413e-a0b8-44dc-b250-1e000e4092a4.svg#a379413e-a0b8-44dc-b250-1e000e4092a4") format("svg");
+    }
+    @font-face{
+        font-family:"Myriad W01 SmBd";
+        src:url("/conferences/fonts/f71415c0-f68d-42cd-a948-05af81548ea5.eot?#iefix");
+        src:url("/conferences/fonts/f71415c0-f68d-42cd-a948-05af81548ea5.eot?#iefix") format("eot"),url("/conferences/fonts/0b6110f9-6072-46b9-98af-7d09f7c895b8.woff2") format("woff2"),url("/conferences/fonts/c22866d7-ca67-4170-a113-cae280eea669.woff") format("woff"),url("/conferences/fonts/19ce9ea9-076e-4dcd-91a1-454f4830f120.ttf") format("truetype"),url("/conferences/fonts/18915124-98e4-4245-9e10-b921e09a6704.svg#18915124-98e4-4245-9e10-b921e09a6704") format("svg");
+    }
+    @font-face{
+        font-family:"Myriad W01 Cnd";
+        src:url("/conferences/fonts/9365313d-8496-4657-86cb-439a81698e62.eot?#iefix");
+        src:url("/conferences/fonts/9365313d-8496-4657-86cb-439a81698e62.eot?#iefix") format("eot"),url("/conferences/fonts/db3cef8e-edd0-4e0b-b59f-41d34fed49f7.woff2") format("woff2"),url("/conferences/fonts/d7f07558-358e-43ab-bd36-0298eee9fad1.woff") format("woff"),url("/conferences/fonts/408c195f-7817-4e58-b9a6-199195365c7a.ttf") format("truetype"),url("/conferences/fonts/42f31449-1991-4ca6-bb98-9e924d681719.svg#42f31449-1991-4ca6-bb98-9e924d681719") format("svg");
+    }
+    @font-face{
+        font-family:"Myriad W01 Bd Cnd";
+        src:url("/conferences/fonts/b4df0776-43d3-4954-9ef2-95527dcfb011.eot?#iefix");
+        src:url("/conferences/fonts/b4df0776-43d3-4954-9ef2-95527dcfb011.eot?#iefix") format("eot"),url("/conferences/fonts/f3750fd8-e60c-4354-9fd6-584d74d1d19e.woff2") format("woff2"),url("/conferences/fonts/4823eae2-791d-4382-8ef0-5916b5b1623f.woff") format("woff"),url("/conferences/fonts/5f217c58-a6c1-4caa-a812-82aebe639d32.ttf") format("truetype"),url("/conferences/fonts/d13b5353-c61b-48c5-a822-a1ae523eddf6.svg#d13b5353-c61b-48c5-a822-a1ae523eddf6") format("svg");
+    }
+
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+
+
+
+
+.carousel-item {
+	height: 45em;
+    max-height: 50em;
+}
+.carousel-item.active {
+	display: block;
+}
+.carousel-caption > .carousel-item--upper {
+	text-transform: uppercase;
+	font-size: 4em;
+}
+
+.carousel-item .carousel-caption {
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+.carousel-item .carousel-caption {
+	opacity: 1;
+}
+.carousel-item .carousel-item--lower > .carousel-slide2-1,
+.carousel-item .carousel-item--lower > .carousel-slide2-2,
+.carousel-item .carousel-item--lower > .carousel-slide2-3 {
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+.carousel-item:nth-of-type(2) .carousel-item--lower > .carousel-slide2-1 {
+	opacity: 1;
+}
+.carousel-item:nth-of-type(3) .carousel-item--lower > .carousel-slide2-1,
+.carousel-item:nth-of-type(3) .carousel-item--lower > .carousel-slide2-2 {
+	opacity: 1;
+}
+.carousel-item:nth-of-type(4) .carousel-item--lower > .carousel-slide2-1,
+.carousel-item:nth-of-type(4) .carousel-item--lower > .carousel-slide2-2,
+.carousel-item:nth-of-type(4) .carousel-item--lower > .carousel-slide2-3 {
+	opacity: 1;
+}
+
+.carousel {
+    position: relative;
+    height: 500px;
+    max-height: 500px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-fade .carousel-item {
+    transition: opacity ease-in-out 500ms;
+    transition-delay: 1000ms;
+    /* left: 0; */
+    opacity: 0;
+    /* top: 0; */
+    bottom: 0%;
+    width: 100%;
+    display: block;
+    position: absolute;
+}
+
+.carousel-caption > .carousel-item--upper {
+    text-transform: uppercase;
+    font-size: 4em;
+    font-family: "Gill Sans Light";
+    color: #404040;
+}
+
+.carousel-item--lower>span, .carousel-item--lower  {
+    /*margin: 1em 0;*/
+    font-size: 1.5em;
+    display: inline-block;
+    line-height: 1.3;
+    /* z-index: 10000; */
+    font-weight: normal;
+}
+
+
+
+.carousel-caption {
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Myriad W01 Regular", Calibri, sans-serif;
+	font-size: 10px;  	
+    color: #404040
+}
+
+.container-fluid{
+    margin:0;
+    padding: 0;
+}
+
+h2.text-center {
+    text-transform: uppercase;
+    font-weight: normal;
+    color: grey;
+}
+
+[href|="#register"]::after {
+    /* background: red; */
+    content: '\25BC';
+    padding: 0px 0px 0 5px;
+    
+}
+
+    [href|="#register"] {
+        color: white !important;
+        background: rgb(27,117,187) !important;
+    }
+
+a.nav-link:visited .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav a.nav-link:hover {
+    color: rgb(27,117,187);    
+}
+
+.navbar-brand img {
+    max-width: 100%;
+    width: 200px;
+    /* background-color: white; */
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav a.nav-link:hover {
+    color: rgb(27,117,187);
+    font-weight: 400;
+}
+
+.navbar-nav>li>a {
+    color: rgb(27,117,187);    
+    text-transform: uppercase;
+    line-height: 1.1em;    
+    font-size: 1.6rem;
+    white-space: nowrap;   
+    padding: 40px 1.3rem 7px!important; 
+}
+        
+
+
+
+.card {
+	text-align: center;
+	color: grey;
+}
+
+h2:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 11%;
+    min-width: 80px;
+    background-color: #5c5d60;
+    margin: 0.8em auto 1.5em;
+}
+
+h2 {
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #404040;
+    font-family: "Gill Sans Light", serif;
+}
+
+
+a.nav-link:hover {
+    text-decoration: underline;
+}
+
+.card-footer{
+ padding: 0;
+}
+
+div#agenda .card-img-top {
+    padding: 0 6em;
+    
+}
+
+.nav-tabs > .nav-item a.active::after {
+    bottom: -19px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 10px solid transparent;
+    content: "";
+    position: absolute;
+    border-top-color: #2b3990;
+}
+
+.nav-tabs .nav-link {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+
+.card-footer {
+    border: transparent;
+    background: transparent;
+}
+
+.card-body {
+    background: transparent;
+    border: transparent;
+}
+
+.card-text {
+    border: transparent;
+    background: transparent;
+}
+
+#accordion {
+    background: transparent;
+    border: transparent;
+}
+
+p.card-text.collapsed {
+    background: white;
+    border: transparent;
+}
+
+.card {
+    background: transparent;
+    border: transparent;
+}
+
+div#one {
+    background: transparent;
+    border: transparent;
+}
+
+
+
+h4 {
+    font-size: 2.7em;
+}
+
+p,td {
+    font-size:1.5em;
+}
+
+strong {
+    font-size: 1em; 
+}
+
+div#agenda {
+    margin: 0 0 15em;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.btn span{
+    font-size:1.5em;    
+    text-transform: uppercase;
+    color: white;
+}
+
+button, input, select, textarea {
+    font-family: "Myriad W01 Regular", sans-serif; 
+}
+
+.btn, .nav.nav-tabs >li>a {
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    font-family: "Myriad W01 Regular", sans-serif;    
+    line-height: 1.33;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;   
+    background-color: rgb(27,117,187);
+    border: 0;    
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;    
+}
+
+.words img {
+    width: 100em;
+    height: 100%;
+    position: static;
+    margin: 0 auto 5em;
+    display: block;
+    /* right: 50%; */
+    /* left: auto; */
+    overflow: hidden;
+}
+
+#subtitle {
+    margin: 0 22% 0;
+    text-align: center;
+}
+
+div#highlights{ 
+    margin: 3% auto;
+    max-width: 1200px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: #2b3990;
+    color: white;
+}
+
+.nav-tabs{
+    /*text-align: center;*/
+    /* display: flex; */
+    flex-wrap: nowrap;
+    font-size: 1em;
+}
+
+.nav-tabs span {
+    font-size: 1em;
+    color: white;
+    text-align: center;
+}
+
+#planning .col-sm-6 {
+    padding: 0 3em 0 6em;
+}
+
+div#planning {
+    /* padding: 0 5em; */
+    /* margin: 0 5em; */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+div#registration {
+    /* padding: 0 5em; */
+    /* margin: 0 5em; */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+div#register {
+    background-color: #abc44a;
+    /* padding: 82px; */
+    text-align: center;
+    color: white;
+}
+
+#register h2 {
+    color: #fff;
+}
+
+#register h2.text-center {
+    margin: 5% 0 0;
+}
+
+#register .row {
+    display: block;
+    padding: 0 0 5em 0;
+}
+
+div#register {
+    background-color: #abc44a;
+    /* padding: 82px; */
+    text-align: center;
+    color: white;
+}
+
+#register p {
+    font-size: 1.5em;
+    color: white
+}
+
+#register h4 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color:white;
+}
+
+h2:after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 11%;
+    min-width: 80px;
+    background-color: white;
+    margin: 0.8em auto 1.5em;
+}
+
+
+.nav.nav-tabs > li > a {
+    margin: 0 0.5em;
+    min-width: 200px;
+    font-size: 1.5em
+}
+
+.btn, .nav.nav-tabs >li>a {
+    display: inline-block;
+    padding: 0.8em 1.5em; 
+    
+    line-height: 1.33;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    /* letter-spacing: 0.05em; */
+    background-color: rgb(27,117,187);
+    border: 0;
+    /* opacity: 1; */
+    /* overflow-x: hidden; */
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all 0.1s;
+}
+
+.btn, .nav.nav-tabs >li>a {
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    font-family: "Myriad W01 Regular", sans-serif;
+    line-height: 1.33;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background-color: rgb(27,117,187);
+    border: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+
+nav.navbar.js-scroll-trigger {
+  
+    -webkit-box-shadow: 0px -50px 0px -32px rgba(204,12,0,1);
+    -moz-box-shadow: 0px -50px 0px -32px rgba(204,12,0,1);
+    margin: 0;
+    box-shadow: 10px -25px 10px 26px rgba(214, 214, 214, 1);
+}
+    
+ .nav-link {
+    display: block;
+    padding: 0;
+}
+
+.tab-content h4 {
+    color: #ed8a30;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+    
+[class^="sprite-"]:before, [class*=" sprite-"]:before { 
+    color: #696969;
+}
+    
+ table, td, th {
+    border-collapse: collapse;
+    border: 1px solid;
+    padding: 0.5em 0.7em;
+    font-size: 1.5em;
+}
+    
+ td p {
+    font-size: 1em;
+}
+    
+    
+
+    /* Small devices (landscape phones, 544px and up) */
+@media (max-width: 543.98px){
+.words img {
+    width: 35em;        
+    }
+    
+.nav.nav-tabs {
+    flex-direction: column;
+    width: 100%;
+}
+    
+.nav-tabs .nav-item {
+    margin-bottom: 10%;
+    font-size: 1.2em;
+    letter-spacing: 0.1em;
+}
+    
+.nav.nav-tabs >li>a {    
+    width: 80%;
+}    
+    
+.nav>li {
+    position: relative;
+}
+    }
+
+@media (min-width: 544px) and (max-width: 767.98px){  
+    .class-name {font-size: 16px;}
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  
+    .class-name {font-size: 30px;}
+  }
+
+  /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px){ 
+    .class-name {font-size: 40px;}
+}
+  /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1499.98px) {  
+    .class-name {font-size: 48px;}
+    
+    .carousel-caption > .carousel-item--upper {  
+    font-size: 3.5em; 
+}
+ .carousel-item--lower>span, .carousel-item--lower {
+ 
+    font-size: 1.4em;
+ 
+}
+  }
+    
+@media (min-width: 1500px){  
+    
+    }    
