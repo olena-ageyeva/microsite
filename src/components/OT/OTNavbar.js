@@ -31,7 +31,7 @@ class OTNavbar extends Component {
        <ul class="navbar-nav ml-auto nav-jump-links ml-auto"> 
            
            <li class="nav-item ">
-                 <a class="nav-link" href="#speakers" data-track="topnav > Featured Speakers" onClick="handleChange">{this.getState("text")}</a>
+                 <a class="nav-link" href="#speakers" data-track="topnav > Featured Speakers">Featured Speakers</a>
            </li>
            <li class="nav-item ">
                 <a class="nav-link" href="#agenda" data-track="topnav > Conference Sessions">Conference Sessions</a>
